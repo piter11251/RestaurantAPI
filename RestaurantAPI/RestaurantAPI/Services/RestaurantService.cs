@@ -1,0 +1,44 @@
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using RestaurantAPI.Entities;
+using RestaurantAPI.Models;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace RestaurantAPI.Services
+{
+    public class RestaurantService : IRestaurantService
+    {
+        private readonly RestaurantDbContext _dbContext;
+        private readonly IMapper _mapper;
+        public RestaurantService(RestaurantDbContext dbContext, IMapper mapper)
+        {
+            _dbContext = dbContext;
+            _mapper = mapper;
+        }
+        public RestaurantDTO GetById(int id)
+        {
+            var restaurant = _dbContext.Restaurants.Include(r => r.Address).Include(r => r.Dishes).FirstOrDefault(r => r.Id == id);
+            if (restaurant is null)
+            {
+                return null;
+            }
+            var result = _mapper.Map<RestaurantDTO>(restaurant);
+            return result;
+        }
+        public IEnumerable<RestaurantDTO> GetAll()
+        {
+            var restaurants = _dbContext.Restaurants.Include(r => r.Address).Include(r => r.Dishes).ToList();
+            var restaurantsDTO = _mapper.Map<List<RestaurantDTO>>(restaurants);
+            return restaurantsDTO;
+        }
+        public int Create(CreateRestaurantDTO dto)
+        {
+            var restaurant = _mapper.Map<Restaurant>(dto);
+            _dbContext.Restaurants.Add(restaurant);
+            _dbContext.SaveChanges();
+            return restaurant.Id;
+        }
+    }
+}
