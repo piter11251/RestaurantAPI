@@ -19,6 +19,14 @@ namespace RestaurantAPI.Controllers
             _dbContext = restaurantDbContext;
             _mapper = mapper;
         }
+        [HttpPost]
+        public ActionResult CreateRestaurant([FromBody] CreateRestaurantDTO dto)
+        {
+            var restaurant = _mapper.Map<Restaurant>(dto);
+            _dbContext.Restaurants.Add(restaurant);
+            _dbContext.SaveChanges();
+            return Created($"/api/restaurant/{restaurant.Id}", null);
+        }
         [HttpGet]
         public ActionResult<IEnumerable<RestaurantDTO>> GetAll()
         {
@@ -35,7 +43,7 @@ namespace RestaurantAPI.Controllers
                 return NotFound();
             }
             var restaurantDTO = _mapper.Map<RestaurantDTO>(restaurant);
-            return Ok(restaurant);
+            return Ok(restaurantDTO);
         }
     }
 }
