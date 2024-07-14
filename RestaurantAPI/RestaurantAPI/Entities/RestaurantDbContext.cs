@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Security.Cryptography;
 
 namespace RestaurantAPI.Entities
 {
@@ -18,6 +19,14 @@ namespace RestaurantAPI.Entities
             modelBuilder.Entity<Dish>()
                 .Property(d => d.Name)
                 .IsRequired();
+            modelBuilder.Entity<Address>()
+                .Property(g => g.Street)
+                .IsRequired()
+                .HasMaxLength(50);
+            modelBuilder.Entity<Address>()
+                .Property(g => g.City)
+                .IsRequired()
+                .HasMaxLength(50);
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
