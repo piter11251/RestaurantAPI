@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|solutionrelative:restaurantapi\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|c:\\users\\99pko\\documents\\github\\restaurantapi\\restaurantapi\\restaurantapi\\restaurantmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|solutionrelative:restaurantapi\\restaurantmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|c:\\users\\99pko\\documents\\github\\restaurantapi\\restaurantapi\\restaurantapi\\models\\createrestaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|solutionrelative:restaurantapi\\models\\createrestaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|c:\\users\\99pko\\documents\\github\\restaurantapi\\restaurantapi\\restaurantapi\\restaurantmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|solutionrelative:restaurantapi\\restaurantmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|c:\\users\\99pko\\documents\\github\\restaurantapi\\restaurantapi\\restaurantapi\\entities\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RestaurantMappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\99pko\\Documents\\GitHub\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI\\RestaurantMappingProfile.cs",
               "RelativeDocumentMoniker": "RestaurantAPI\\RestaurantMappingProfile.cs",
@@ -42,8 +42,7 @@
               "RelativeToolTip": "RestaurantAPI\\RestaurantMappingProfile.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T11:31:40.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T11:31:40.475Z"
             },
             {
               "$type": "Document",
@@ -55,18 +54,17 @@
               "RelativeToolTip": "RestaurantAPI\\Entities\\Restaurant.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T11:30:02.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T11:30:02.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CreateRestaurantDTO.cs",
               "DocumentMoniker": "C:\\Users\\99pko\\Documents\\GitHub\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI\\Models\\CreateRestaurantDTO.cs",
               "RelativeDocumentMoniker": "RestaurantAPI\\Models\\CreateRestaurantDTO.cs",
               "ToolTip": "C:\\Users\\99pko\\Documents\\GitHub\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI\\Models\\CreateRestaurantDTO.cs",
               "RelativeToolTip": "RestaurantAPI\\Models\\CreateRestaurantDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-14T11:29:29.57Z",
               "EditorCaption": ""
@@ -79,7 +77,7 @@
               "RelativeDocumentMoniker": "RestaurantAPI\\Controllers\\RestaurantController.cs",
               "ToolTip": "C:\\Users\\99pko\\Documents\\GitHub\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI\\Controllers\\RestaurantController.cs",
               "RelativeToolTip": "RestaurantAPI\\Controllers\\RestaurantController.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAmwDEAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wBgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-14T11:16:59.128Z",
               "EditorCaption": ""
