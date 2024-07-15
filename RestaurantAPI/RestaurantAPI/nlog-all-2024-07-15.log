@@ -1,0 +1,12 @@
+2024-07-15 10:25:19.7577||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-07-15 10:25:19.8018||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-07-15 10:25:19.8116||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-15 10:25:19.8116||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-15 10:25:19.8184||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99pko\Documents\GitHub\RestaurantAPI\RestaurantAPI\RestaurantAPI 
+2024-07-15 10:25:59.2473||WARN|RestaurantAPI.Services.RestaurantService|Restaurant with id: 222 DELETE action invoked 
+2024-07-15 10:30:15.1900||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-07-15 10:30:15.2360||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-07-15 10:30:15.2403||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-15 10:30:15.2403||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-15 10:30:15.2403||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99pko\Documents\GitHub\RestaurantAPI\RestaurantAPI\RestaurantAPI 
+2024-07-15 10:30:20.4893||ERROR|RestaurantAPI.Services.RestaurantService|Restaurant with id: 222 DELETE action invoked 

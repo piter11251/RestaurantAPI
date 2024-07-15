@@ -60,3 +60,7 @@ C:\Users\99pko\Documents\GitHub\RestaurantAPI\RestaurantAPI\RestaurantAPI\obj\De
 C:\Users\99pko\Documents\GitHub\RestaurantAPI\RestaurantAPI\RestaurantAPI\obj\Debug\net5.0\RestaurantAPI.sourcelink.json
 C:\Users\99pko\Documents\GitHub\RestaurantAPI\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\99pko\Documents\GitHub\RestaurantAPI\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\99pko\Documents\GitHub\RestaurantAPI\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\nlog.config
+C:\Users\99pko\Documents\GitHub\RestaurantAPI\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\NLog.dll
+C:\Users\99pko\Documents\GitHub\RestaurantAPI\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+C:\Users\99pko\Documents\GitHub\RestaurantAPI\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
