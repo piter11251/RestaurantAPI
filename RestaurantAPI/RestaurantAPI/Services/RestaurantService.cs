@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using RestaurantAPI.Entities;
 using RestaurantAPI.Models;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 
 namespace RestaurantAPI.Services
@@ -49,6 +50,21 @@ namespace RestaurantAPI.Services
                 return false;
             }
             _dbContext.Restaurants.Remove(restaurant);
+            _dbContext.SaveChanges();
+            return true;
+        }
+        public bool Modify(int id, UpdateRestaurantDTO dto)
+        {
+            var restaurant = _dbContext.Restaurants.FirstOrDefault(r => r.Id == id);
+            if(restaurant is null)
+            {
+                return false;
+            }
+            restaurant.Name = dto.Name;
+            restaurant.Description = dto.Description;
+            restaurant.HasDelievery = dto.HasDelievery;
+
+            //_dbContext.Update(restaurant);
             _dbContext.SaveChanges();
             return true;
         }
