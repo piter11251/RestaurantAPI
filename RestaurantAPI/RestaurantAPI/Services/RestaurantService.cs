@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using RestaurantAPI.Entities;
+using RestaurantAPI.Exceptions;
 using RestaurantAPI.Models;
 using System.Collections.Generic;
 using System.Dynamic;
@@ -27,7 +28,7 @@ namespace RestaurantAPI.Services
             var restaurant = _dbContext.Restaurants.Include(r => r.Address).Include(r => r.Dishes).FirstOrDefault(r => r.Id == id);
             if (restaurant is null)
             {
-                return null;
+                throw new NotFoundException("Restaurant not found");
             }
             var result = _mapper.Map<RestaurantDTO>(restaurant);
             return result;
@@ -45,25 +46,24 @@ namespace RestaurantAPI.Services
             _dbContext.SaveChanges();
             return restaurant.Id;
         }
-        public bool Delete(int id)
+        public void Delete(int id)
         {
             _logger.LogError($"Restaurant with id: {id} DELETE action invoked");
             var restaurant = _dbContext.Restaurants.FirstOrDefault(r => r.Id == id);
 
-            if (restaurant is null)
+            if(restaurant is null)
             {
-                return false;
+                throw new NotFoundException("Restaurant not found");
             }
             _dbContext.Restaurants.Remove(restaurant);
             _dbContext.SaveChanges();
-            return true;
         }
-        public bool Modify(int id, UpdateRestaurantDTO dto)
+        public void Modify(int id, UpdateRestaurantDTO dto)
         {
             var restaurant = _dbContext.Restaurants.FirstOrDefault(r => r.Id == id);
             if(restaurant is null)
             {
-                return false;
+                throw new NotFoundException("Restaurant not found");
             }
             restaurant.Name = dto.Name;
             restaurant.Description = dto.Description;
@@ -71,7 +71,6 @@ namespace RestaurantAPI.Services
 
             //_dbContext.Update(restaurant);
             _dbContext.SaveChanges();
-            return true;
         }
     }
 }
