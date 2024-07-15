@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using RestaurantAPI.Entities;
+using RestaurantAPI.Middleware;
 using RestaurantAPI.Services;
 using System;
 using System.Collections.Generic;
@@ -32,6 +33,7 @@ namespace RestaurantAPI
             services.AddScoped<RestaurantSeeder>();
             services.AddAutoMapper(this.GetType().Assembly);
             services.AddScoped<IRestaurantService, RestaurantService>();
+            services.AddScoped<ErrorHandlingMiddleware>();
             services.AddControllers();
         }
 
@@ -43,7 +45,7 @@ namespace RestaurantAPI
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseMiddleware<ErrorHandlingMiddleware>();
             app.UseHttpsRedirection();
 
             app.UseRouting();
