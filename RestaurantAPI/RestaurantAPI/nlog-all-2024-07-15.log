@@ -281,3 +281,32 @@ Error Number:53,State:0,Class:20
 2024-07-15 12:32:02.2729||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
 2024-07-15 12:32:02.2729||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
 2024-07-15 12:32:02.2937||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99pko\Documents\GitHub\RestaurantAPI\RestaurantAPI\RestaurantAPI 
+2024-07-15 12:42:03.4464||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-07-15 12:42:03.4886||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-07-15 12:42:03.4923||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-15 12:42:03.4923||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-15 12:42:03.4923||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99pko\Documents\GitHub\RestaurantAPI\RestaurantAPI\RestaurantAPI 
+2024-07-15 13:11:58.7807||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-07-15 13:11:58.8164||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-07-15 13:11:58.8209||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-15 13:11:58.8209||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-15 13:11:58.8209||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99pko\Documents\GitHub\RestaurantAPI\RestaurantAPI\RestaurantAPI 
+2024-07-15 13:13:27.5708||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-07-15 13:13:27.6073||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-07-15 13:13:27.6073||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-15 13:13:27.6154||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-15 13:13:27.6154||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99pko\Documents\GitHub\RestaurantAPI\RestaurantAPI\RestaurantAPI 
+2024-07-15 13:13:47.9972||INFO|RestaurantAPI.Middleware.TimingAPIResponseMiddleware|Request [GET] at /api/restaurant took 13672 ms 
+2024-07-15 13:14:24.1802||INFO|RestaurantAPI.Middleware.TimingAPIResponseMiddleware|Request [GET] at /api/restaurant took 11877 ms 
+2024-07-15 13:16:49.7944||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-07-15 13:16:49.8336||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-07-15 13:16:49.8336||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-15 13:16:49.8336||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-15 13:16:49.8336||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99pko\Documents\GitHub\RestaurantAPI\RestaurantAPI\RestaurantAPI 
+2024-07-15 13:17:06.4991||INFO|RestaurantAPI.Middleware.TimingAPIResponseMiddleware|Request [GET] at /api/restaurant took 10264 ms 
+2024-07-15 13:19:11.7144||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-07-15 13:19:11.7509||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-07-15 13:19:11.7571||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-15 13:19:11.7571||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-15 13:19:11.7571||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99pko\Documents\GitHub\RestaurantAPI\RestaurantAPI\RestaurantAPI 
+2024-07-15 13:19:26.3521||INFO|RestaurantAPI.Middleware.TimingAPIResponseMiddleware|Request [GET] at /api/restaurant took 10472 ms 
