@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\99pko\\Documents\\GitHub\\RestaurantAPI\\RestaurantAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|c:\\users\\99pko\\documents\\github\\restaurantapi\\restaurantapi\\restaurantapi\\models\\restaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|solutionrelative:restaurantapi\\models\\restaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|c:\\users\\99pko\\documents\\github\\restaurantapi\\restaurantapi\\restaurantapi\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|solutionrelative:restaurantapi\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|c:\\users\\99pko\\documents\\github\\restaurantapi\\restaurantapi\\restaurantapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|solutionrelative:restaurantapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|c:\\users\\99pko\\documents\\github\\restaurantapi\\restaurantapi\\restaurantapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|solutionrelative:restaurantapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|c:\\users\\99pko\\documents\\github\\restaurantapi\\restaurantapi\\restaurantapi\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -13,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|c:\\users\\99pko\\documents\\github\\restaurantapi\\restaurantapi\\restaurantapi\\middleware\\timingapiresponsemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|solutionrelative:restaurantapi\\middleware\\timingapiresponsemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|c:\\users\\99pko\\documents\\github\\restaurantapi\\restaurantapi\\restaurantapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DDF3379-123E-4E6C-8D5B-B694CFB8B7A3}|RestaurantAPI\\RestaurantAPI.csproj|solutionrelative:restaurantapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +42,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "RestaurantDTO.cs",
+              "DocumentMoniker": "C:\\Users\\99pko\\Documents\\GitHub\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI\\Models\\RestaurantDTO.cs",
+              "RelativeDocumentMoniker": "RestaurantAPI\\Models\\RestaurantDTO.cs",
+              "ToolTip": "C:\\Users\\99pko\\Documents\\GitHub\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI\\Models\\RestaurantDTO.cs",
+              "RelativeToolTip": "RestaurantAPI\\Models\\RestaurantDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T14:48:52.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\99pko\\Documents\\GitHub\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI\\Program.cs",
+              "RelativeDocumentMoniker": "RestaurantAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\99pko\\Documents\\GitHub\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI\\Program.cs",
+              "RelativeToolTip": "RestaurantAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T14:47:09.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "nlog.config",
               "DocumentMoniker": "C:\\Users\\99pko\\Documents\\GitHub\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI\\nlog.config",
               "RelativeDocumentMoniker": "RestaurantAPI\\nlog.config",
@@ -42,47 +75,43 @@
               "RelativeToolTip": "RestaurantAPI\\nlog.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-07-15T11:16:05.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T11:16:05.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RestaurantController.cs",
               "DocumentMoniker": "C:\\Users\\99pko\\Documents\\GitHub\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI\\Controllers\\RestaurantController.cs",
               "RelativeDocumentMoniker": "RestaurantAPI\\Controllers\\RestaurantController.cs",
               "ToolTip": "C:\\Users\\99pko\\Documents\\GitHub\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI\\Controllers\\RestaurantController.cs",
               "RelativeToolTip": "RestaurantAPI\\Controllers\\RestaurantController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAIwCgAAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T11:13:06.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T11:13:06.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\99pko\\Documents\\GitHub\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI\\Startup.cs",
               "RelativeDocumentMoniker": "RestaurantAPI\\Startup.cs",
               "ToolTip": "C:\\Users\\99pko\\Documents\\GitHub\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI\\Startup.cs",
               "RelativeToolTip": "RestaurantAPI\\Startup.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T11:09:13.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T11:09:13.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "TimingAPIResponseMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\99pko\\Documents\\GitHub\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI\\Middleware\\TimingAPIResponseMiddleware.cs",
               "RelativeDocumentMoniker": "RestaurantAPI\\Middleware\\TimingAPIResponseMiddleware.cs",
               "ToolTip": "C:\\Users\\99pko\\Documents\\GitHub\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI\\Middleware\\TimingAPIResponseMiddleware.cs",
               "RelativeToolTip": "RestaurantAPI\\Middleware\\TimingAPIResponseMiddleware.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAgwAsAAAArAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwAsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T11:08:03.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T11:08:03.983Z"
             }
           ]
         }
